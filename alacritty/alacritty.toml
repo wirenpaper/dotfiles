@@ -1,0 +1,16 @@
+[colors.primary]
+background = "0x000000"
+#background = "0x300A24"
+
+[font]
+size = 20
+
+[font.bold]
+family = "Ac437 IBM VGA 8x16"
+
+[font.normal]
+family = "Ac437 IBM VGA 8x16"
+
+[window]
+opacity = 1
+startup_mode = "Fullscreen"
