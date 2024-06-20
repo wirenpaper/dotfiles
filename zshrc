@@ -157,7 +157,8 @@ precmd_functions+=(check_dir)
 # the shell inside of neovim. It must be placed somewhere in
 # your default shell's rc file e.g. ~/.zshrc
 
-#export PATH=$PATH:$(go env GOPATH)/bin
+export PATH="/home/saifr/progs/go1.22.3.linux-amd64/go/bin:$PATH"
+export PATH=$PATH:$(go env GOPATH)/bin
 export PATH="/home/saifr/scripts:$PATH"
 neovim_autocd() {
 	[[ $NVIM ]] && neovim-autocd.py
